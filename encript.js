@@ -5,7 +5,7 @@ const inventario = [
  */
   { nro:666, nombre: 'Brian Rodrigo Salazar Quispe', ci: 8468662 ,cargo:'presidente' , macro: 'la paz', dist: '666'},
 
-  { nro:1, nombre: 'Josue Viktor Morales', ci: 6957485 ,cargo:'Coordinador Político D-15 Coordinador Político D-15 Coordinador Político D-15' , macro: 'San Antonio', dist: '15'},
+  { nro:1, nombre: 'Josue Viktor Morales', ci: 6957485 ,cargo:'Coordinador Político D-15' , macro: 'San Antonio', dist: '15'},
 
 ];
 var item = inventario.find(item => item.nro === parseInt(prodId, 10));
